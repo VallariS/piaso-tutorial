@@ -1,5 +1,3 @@
-.. include:: ../README.rst
-
 Welcome to PIASO's documentation!
 ===================================
 
