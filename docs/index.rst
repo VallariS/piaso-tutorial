@@ -12,4 +12,4 @@ Welcome to PIASO's documentation!
    :caption: Contents:
 
    source/notebooks/01_showThePlotFunction.ipynb
-   docs/source/notebooks/PIASO_tutorial.ipynb
+   source/notebooks/PIASO_tutorial.ipynb
