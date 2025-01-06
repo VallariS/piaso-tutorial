@@ -19,4 +19,4 @@ how to :ref:`installation` the project.
    :maxdepth: 2
    :caption: Contents:
 
-   notebooks/01_showThePlotFunction.ipynb
+   source/notebooks/01_showThePlotFunction.ipynb
