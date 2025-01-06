@@ -23,4 +23,3 @@ Contents
    Home <self>
    usage
    api
-   notebooks/01_showThePlotFunction.ipynb
