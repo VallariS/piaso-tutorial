@@ -11,9 +11,9 @@ Welcome to PIASO's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   Installation
-   Tutorial
-   API reference
-   Release notes
+   installation
+   tutorial
+   api
+   release
    source/notebooks/01_showThePlotFunction.ipynb
    source/notebooks/PIASO_tutorial.ipynb
