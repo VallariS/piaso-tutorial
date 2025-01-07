@@ -56,13 +56,45 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_book_theme"
+# html_theme = "sphinx_book_theme"
+# html_theme_options = {
+#     "body_min_width": "50%",
+#     "body_max_width": "none"
+# }
+
+html_theme = 'pydata_sphinx_theme'
+html_show_sphinx = False
+html_show_sourcelink = False
+html_static_path = ['_static']
+html_css_files = [
+    'css/my_theme.css',
+]
+
 html_theme_options = {
-    "body_min_width": "50%",
-    "body_max_width": "none"
+    # "logo": {
+    #     "text": "SnapATAC2",
+    #     "image_dark": "_static/logo-dark.svg",
+    #     "alt_text": "SnapATAC2",
+    # },
+
+    # "github_url": "https://github.com/kaizhang/SnapATAC2",
+    # "external_links": [
+    #     {"name": "Learn", "url": "https://kzhang.org/epigenomics-analysis/"}
+    # ],
+    "header_links_before_dropdown": 6,
+
+    "navbar_center": ["version-switcher", "navbar-nav"],
+    "navbar_end": ["theme-switcher", "navbar-icon-links"],
+    "navbar_align": "left",
+    "show_version_warning_banner": switcher_version == "dev",
+
+    # "switcher": {
+    #     "version_match": switcher_version,
+    #     "json_url": "https://raw.githubusercontent.com/kaizhang/SnapATAC2/main/docs/_static/versions.json", 
+    # },
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
+# html_static_path = ["_static"]
