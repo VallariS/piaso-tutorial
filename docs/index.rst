@@ -12,7 +12,7 @@ Welcome to PIASO's documentation!
    :caption: Contents:
 
    installation
-   tutorial
+   usage
    api
    release
    source/notebooks/01_showThePlotFunction.ipynb
