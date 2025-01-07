@@ -67,7 +67,7 @@ html_show_sphinx = False
 html_show_sourcelink = False
 html_static_path = ['_static']
 html_css_files = [
-    'css/my_theme.css',
+    'css/custom.css',
 ]
 
 html_theme_options = {
