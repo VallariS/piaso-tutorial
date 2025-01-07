@@ -15,5 +15,3 @@ Welcome to PIASO's documentation!
    usage
    api
    release
-   source/notebooks/01_showThePlotFunction.ipynb
-   source/notebooks/PIASO_tutorial.ipynb
