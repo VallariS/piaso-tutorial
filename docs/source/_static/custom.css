@@ -1,6 +1,7 @@
 :root {
     // Sidebar styles
     --pst-sidebar-secondary: 15rem;
+    --nosidebar: True;
 }
 
 /* Main page overview cards */
@@ -13,12 +14,3 @@
 html[data-theme=dark] .sd-card img[src*='.svg'] {
     filter: invert(0.82) brightness(0.8) contrast(1.2);
 }
-
-
-/* adjusting  width */
-$container-max-widths: (
-  sm: 720px,
-  md: 960px,
-  lg: 1400px,
-  xl: 1640px,
-);
