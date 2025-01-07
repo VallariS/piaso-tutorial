@@ -83,7 +83,7 @@ html_theme_options = {
     # ],
     "header_links_before_dropdown": 6,
 
-    "navbar_center": ["version-switcher", "navbar-nav"],
+    "navbar_center": ["navbar-nav"],
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_align": "left",
     # "show_version_warning_banner": switcher_version == "dev",
