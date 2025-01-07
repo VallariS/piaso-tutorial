@@ -86,7 +86,7 @@ html_theme_options = {
     "navbar_center": ["version-switcher", "navbar-nav"],
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_align": "left",
-    "show_version_warning_banner": switcher_version == "dev",
+    # "show_version_warning_banner": switcher_version == "dev",
 
     # "switcher": {
     #     "version_match": switcher_version,
