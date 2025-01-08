@@ -25,10 +25,12 @@ ipykernel
 jinja2==3.1.2
     # via sphinx
 jupyter_sphinx
+jupyterlite_sphinx
 markupsafe==2.1.1
     # via jinja2
 myst_parser
 nbsphinx
+numpydoc
 packaging==21.3
     # via sphinx
 pygments==2.12.0
@@ -48,8 +50,10 @@ sphinx==5.0.2
 sphinx_copybutton
 sphinx_design
 sphinx-autoapi
+sphinx_favicon
 sphinx-rtd-theme==1.0.0
     # via -r docs/requirements.in
+sphinx_togglebutton
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
