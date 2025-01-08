@@ -47,7 +47,7 @@ extensions = [
     "myst_parser",
     # "ablog",
     "jupyter_sphinx",
-    "sphinxcontrib.youtube",
+    # "sphinxcontrib.youtube",
     "nbsphinx",
     "numpydoc",
     "sphinx_togglebutton",
