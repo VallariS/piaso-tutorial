@@ -69,7 +69,7 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
-html_logo = "source/_static/logo.png"
+html_logo = "source/_static/PIASO_logo.png"
 
 html_theme_options = {
     # "logo": {
