@@ -88,6 +88,7 @@ html_theme_options = {
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_align": "left",
 
+    "secondary_sidebar_items": ["page-toc"],
     "primary_sidebar_end": ["sidebar-ethical-ads"],
     # "show_version_warning_banner": switcher_version == "dev",
 
