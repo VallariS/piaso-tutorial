@@ -70,10 +70,6 @@ html_css_files = [
     'custom.css',
 ]
 
-# html_sidebars = {
-#   "path/to/page": [],
-# }
-
 html_theme_options = {
     # "logo": {
     #     "text": "SnapATAC2",
@@ -90,9 +86,8 @@ html_theme_options = {
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_align": "left",
-    # "secondary_sidebar_items": {
-    #     "path/to/page": [],
-    # },
+
+    "primary_sidebar_end": ["sidebar-ethical-ads"],
     # "show_version_warning_banner": switcher_version == "dev",
 
     # "switcher": {
