@@ -36,7 +36,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinx.ext.intersphinx",
     "sphinx.ext.graphviz",
-    "sphinx.ext.rediraffe",
+    "sphinxext.rediraffe",
     "sphinx_design",
     "sphinx_copybutton",
     "autoapi.extension",
