@@ -55,6 +55,12 @@ extensions = [
     "sphinx_favicon",
 ]
 
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".ipynb": "myst-nb",
+    ".myst": "myst-nb",
+}
+
 jupyterlite_config = "jupyterlite_config.json"
 
 # Add any paths that contain templates here, relative to this directory.
