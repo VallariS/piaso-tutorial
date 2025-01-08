@@ -50,7 +50,7 @@ sphinx==5.0.2
     #   sphinx-rtd-theme
 sphinx_copybutton
 sphinx_design
-sphinx-autoapi
+sphinx-autoapi==3.0.0
 sphinx_favicon
 sphinx-rtd-theme==1.0.0
     # via -r docs/requirements.in
