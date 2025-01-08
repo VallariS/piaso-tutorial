@@ -45,7 +45,7 @@ extensions = [
     "_extension.component_directive",
     # For extension examples and demos
     "myst_parser",
-    "ablog",
+    # "ablog",
     "jupyter_sphinx",
     "sphinxcontrib.youtube",
     "nbsphinx",
