@@ -83,13 +83,16 @@ html_theme_options = {
     #     {"name": "Learn", "url": "https://kzhang.org/epigenomics-analysis/"}
     # ],
     "header_links_before_dropdown": 6,
+    "show_toc_level": 1,
     "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_align": "left",
 
-    "secondary_sidebar_items": ["page-toc"],
     "primary_sidebar_end": ["sidebar-ethical-ads"],
+    "secondary_sidebar_items": {
+        "**/*": ["page-toc"],
+    }
     # "show_version_warning_banner": switcher_version == "dev",
 
     # "switcher": {
