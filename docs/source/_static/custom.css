@@ -13,6 +13,14 @@
   max-width: 100%;  /* default is 60em */
 }
 
+.output_area {
+    width: auto !important;      /* Reset width to auto */
+    height: auto !important;     /* Reset height to auto */
+    max-width: none !important;  /* Remove any max-width constraints */
+    max-height: none !important; /* Remove any max-height constraints */
+    overflow: visible !important; /* Ensure no scrollbars unless needed */
+}
+    
 /* Dark theme tweaking */
 html[data-theme=dark] .sd-card img[src*='.svg'] {
     filter: invert(0.82) brightness(0.8) contrast(1.2);
