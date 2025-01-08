@@ -56,9 +56,9 @@ extensions = [
 ]
 
 source_suffix = {
-    ".rst": "restructuredtext",
-    ".ipynb": "myst-nb",
-    ".myst": "myst-nb",
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
 }
 
 jupyterlite_config = "jupyterlite_config.json"
