@@ -76,13 +76,14 @@ html_theme_options = {
     #     "image_dark": "_static/logo-dark.svg",
     #     "alt_text": "SnapATAC2",
     # },
+    html_logo = "source/_static/logo.png"
 
     # "github_url": "https://github.com/kaizhang/SnapATAC2",
     # "external_links": [
     #     {"name": "Learn", "url": "https://kzhang.org/epigenomics-analysis/"}
     # ],
     "header_links_before_dropdown": 6,
-
+    "navbar_start": ["navbar-logo"],
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["theme-switcher", "navbar-icon-links"],
     "navbar_align": "left",
