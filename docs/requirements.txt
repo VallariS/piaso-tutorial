@@ -34,7 +34,7 @@ numpydoc
 packaging==21.3
     # via sphinx
 pydata_sphinx_theme
-pygments==2.12.0
+pygments==2.13.0
     # via sphinx
 pyparsing==3.0.9
     # via packaging
