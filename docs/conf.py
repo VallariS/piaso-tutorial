@@ -285,11 +285,11 @@ autodoc_typehints = "description"
 autodoc_member_order = "groupwise"
 
 # -- Options for autoapi -------------------------------------------------------
-autoapi_type = "python"
-autoapi_dirs = ["../src/pydata_sphinx_theme"]
-autoapi_keep_files = True
-autoapi_root = "api"
-autoapi_member_order = "groupwise"
+# autoapi_type = "python"
+# autoapi_dirs = ["../src/pydata_sphinx_theme"]
+# autoapi_keep_files = True
+# autoapi_root = "api"
+# autoapi_member_order = "groupwise"
 
 # -- application setup -------------------------------------------------------
 
