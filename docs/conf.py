@@ -147,6 +147,8 @@ if not version_match or version_match.isdigit() or version_match == "latest":
 elif version_match == "stable":
     version_match = f"v{release}"
 
+html_logo = "source/_static/PIASO_logo.png"
+
 html_theme_options = {
     "external_links": [
         {
@@ -188,10 +190,10 @@ html_theme_options = {
     # alternative way to set twitter and github header icons
     # "github_url": "https://github.com/pydata/pydata-sphinx-theme",
     # "twitter_url": "https://twitter.com/PyData",
-    "logo": {
-        "text": "PyData Theme",
-        "image_dark": "_static/logo-dark.svg",
-    },
+    # "logo": {
+    #     "text": "PyData Theme",
+    #     "image_dark": "_static/logo-dark.svg",
+    # },
     "use_edit_page_button": True,
     "show_toc_level": 1,
     # [left, content, right] For testing that the navbar items align properly
