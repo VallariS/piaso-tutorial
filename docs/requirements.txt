@@ -52,7 +52,7 @@ sphinx_copybutton
 sphinx_design
 sphinx-autoapi==3.0.0
 sphinx_favicon
-sphinx-rtd-theme==1.0.0
+# sphinx-rtd-theme==1.0.0
     # via -r docs/requirements.in
 sphinx_togglebutton
 sphinxcontrib-applehelp==1.0.2
