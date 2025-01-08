@@ -69,6 +69,7 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
+html_logo = "source/_static/logo.png"
 
 html_theme_options = {
     # "logo": {
@@ -76,7 +77,6 @@ html_theme_options = {
     #     "image_dark": "_static/logo-dark.svg",
     #     "alt_text": "SnapATAC2",
     # },
-    html_logo = "source/_static/logo.png"
 
     # "github_url": "https://github.com/kaizhang/SnapATAC2",
     # "external_links": [
