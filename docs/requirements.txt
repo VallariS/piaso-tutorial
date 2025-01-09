@@ -33,6 +33,7 @@ nbsphinx
 numpydoc
 packaging==21.3
     # via sphinx
+poetry-core
 pydata_sphinx_theme
 pygments==2.13.0
     # via sphinx
