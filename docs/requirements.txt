@@ -39,7 +39,7 @@ pygments==2.13.0
     # via sphinx
 pyparsing==3.0.9
     # via packaging
-python>=3.6,<3.10
+python==3.9
 pytz==2022.1
     # via babel
 requests==2.28.1
